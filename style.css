@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('Quicksand-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.socials {
+    background-color: #313244;
+    padding: 15px;
+    width: 50%;
+    margin: 25px auto;
+    border-radius: 15px;
+    text-align: center;
+}
+@media (orientation: portrait) and (max-width: 720px) {
+    .socials {
+        width: 75%;
+    }
+}
+
+html {
+    background-color: #1e1e2e;
+}
+body {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    margin: 0;
+}
+p,li,a,small,h1,h2,h3,h4,summary {
+    color: #cdd6f4;
+    font-family: 'Quicksand';
+    text-align: center;
+}
+a:link,a:visited {
+    color: #b4befe;
+}
+h1,h2 {
+    font-family: 'Quicksand';
+}
+small {
+    color: #a6adc8;
+}
+
+.social-img {
+    margin: 15px 5px 5px 5px;
+    height: 35px;
+    transition: transform 0.25s ease;
+}
+.social-img:hover {
+    transform: translateY(1px);
+    cursor: pointer;
+}
+.social-img:not(:hover) {
+    transform: translateY(0px);
+}
+
+/* Summary button hover styling */
+summary {
+    transition: transform 0.25s ease;
+}
+summary:hover {
+    transform: translateY(1px);
+    cursor: pointer;
+}
+summary:not(:hover) {
+    transform: translateY(0px);
+}
+
+/* WIP: Socials accordion slide animation */
+.socials:has(details) {
+    max-height: 25px;
+    overflow: hidden;
+    transition: max-height 1s ease;
+}
+.socials:has(details[open]) {
+    max-height: 1000px;
+}
