@@ -50,7 +50,7 @@ small {
     transition: transform 0.25s ease;
 }
 .social-img:hover {
-    transform: translateY(1px);
+    transform: translateY(-1px);
     cursor: pointer;
 }
 .social-img:not(:hover) {
@@ -70,7 +70,7 @@ summary:not(:hover) {
 }
 
 /* WIP: Socials accordion slide animation */
-.socials:has(details) {
+.socials:has(details):has(details) {
     max-height: 25px;
     overflow: hidden;
     transition: max-height 1s ease;
