@@ -69,7 +69,6 @@ summary:not(:hover) {
     transform: translateY(0px);
 }
 
-/* WIP: Socials accordion slide animation */
 .socials:has(details):has(details) {
     max-height: 25px;
     overflow: hidden;
