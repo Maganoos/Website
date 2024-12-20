@@ -5,6 +5,7 @@
     font-style: normal;
     font-display: swap;
 }
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
 
 .socials {
     background-color: #313244;
@@ -48,6 +49,8 @@ small {
     margin: 15px 5px 5px 5px;
     height: 35px;
     transition: transform 0.25s ease;
+    vertical-align: middle;
+    display: inline-block;
 }
 .social-img:hover {
     transform: translateY(-1px);

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define the globe circle -->
+  <circle cx="200" cy="200" r="180" stroke="#7f849c" stroke-width="10" fill="none"/>
+
+  <!-- Equator line -->
+  <line x1="20" y1="200" x2="380" y2="200" stroke="#7f849c" stroke-width="12"/>
+
+  <!-- Prime meridian line -->
+  <line x1="200" y1="20" x2="200" y2="380" stroke="#7f849c" stroke-width="12"/>
+
+  <!-- Additional meridian lines -->
+  <path d="M 200 20 Q 300 100 300 200 Q 300 300 200 380" stroke="#7f849c" stroke-width="12" fill="none"/>
+  <path d="M 200 20 Q 100 100 100 200 Q 100 300 200 380" stroke="#7f849c" stroke-width="12" fill="none"/>
+
+  <!-- Additional parallel lines -->
+  <path d="M 20 150 Q 200 100 380 150" stroke="#7f849c" stroke-width="12" fill="none"/>
+  <path d="M 20 250 Q 200 300 380 250" stroke="#7f849c" stroke-width="12" fill="none"/>
+</svg>
