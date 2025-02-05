@@ -1,1 +1,1 @@
-# magnuskari.cc
+# magkari.eu
