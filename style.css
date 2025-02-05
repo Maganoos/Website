@@ -1,73 +1,24 @@
-.socials {
-    background-color: #313244;
-    padding: 15px;
-    width: 50%;
-    margin: 25px auto;
-    border-radius: 15px;
-    text-align: center;
-}
-@media (orientation: portrait) and (max-width: 720px) {
-    .socials {
-        width: 75%;
-    }
-}
-
-html {
-    background-color: #1e1e2e;
-}
-body {
-    position: absolute;
-    top: 25%;
-    width: 100%;
+* {
     margin: 0;
-}
-p,li,a,small,h1,h2,h3,h4,summary,b {
-    color: #cdd6f4;
-    font-family: 'Quicksand';
-    font-weight: 500;
-    text-align: center;
-}
-a:link,a:visited {
-    color: #b4befe;
-}
-small {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-weight: 400;
     color: #a6adc8;
 }
 
-.social-img {
-    margin: 15px 5px 5px 5px;
-    height: 35px;
-    transition: transform 0.25s ease;
-    vertical-align: middle;
-    display: inline-block;
-}
-.social-img:hover {
-    transform: translateY(-1px);
-    cursor: pointer;
-}
-.social-img:not(:hover) {
-    transform: translateY(0px);
+body {
+    font-size: 16px;
+    background-color: black;
 }
 
-/* Summary button hover styling */
-summary {
-    transition: transform 0.25s ease;
-}
-summary:hover {
-    transform: translateY(1px);
-    cursor: pointer;
-}
-summary:not(:hover) {
-    transform: translateY(0px);
+.socials a {
+    margin-right: 2.5px;
+    margin-left: 2.5px
 }
 
-.socials:has(details):has(details) {
-    max-height: 25px;
-    overflow: hidden;
-    transition: max-height 1s ease;
-}
-.socials:has(details[open]) {
-    max-height: 1000px;
+.socials img {
+    width: 30px;
 }
 
 .source-container {
