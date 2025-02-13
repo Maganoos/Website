@@ -18,7 +18,9 @@ body {
 }
 
 .socials img {
-    width: 30px;
+    height: 30px;
+    width: auto;
+    object-fit: contain;
 }
 
 .source-container {
